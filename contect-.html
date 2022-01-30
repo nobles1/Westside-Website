@@ -53,12 +53,12 @@
 
 <section data-silex-type="container-element" class="container-element editable-style silex-id-1478366444112-1 section-element hero prevent-resizable" style="">
         
-    <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366444112-0 container-element website-width" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1643489486843-23 silex-component-hamburger prevent-resizable prevent-auto-z-index hide-on-desktop" style=""><div class="silex-element-content normal"><style>.hamburger-menu_1643550476495_402 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1643550476495_402 nav {left: -9999px;}.hamburger-menu_1643550476495_402 nav ul {margin-top: 80px;}.hamburger-menu_1643550476495_402 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1643550476495_402.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1643550476495_402 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1643550476495_402.open .nav-container {}.hamburger-menu_1643550476495_402 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1643550476495_402 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+    <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366444112-0 container-element website-width" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1643489486843-23 silex-component-hamburger prevent-resizable prevent-auto-z-index hide-on-desktop" style=""><div class="silex-element-content normal"><style>.hamburger-menu_1643556605076_571 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1643556605076_571 nav {left: -9999px;}.hamburger-menu_1643556605076_571 nav ul {margin-top: 80px;}.hamburger-menu_1643556605076_571 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1643556605076_571.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1643556605076_571 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1643556605076_571.open .nav-container {}.hamburger-menu_1643556605076_571 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1643556605076_571 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
       opacity 0.1s ease-in,
       transform 0.1s ease-in,
-      background 0.1s ease-in;}.hamburger-menu_1643550476495_402.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1643550476495_402 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1643550476495_402.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1643550476495_402.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1643550476495_402 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1643550476495_402.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+      background 0.1s ease-in;}.hamburger-menu_1643556605076_571.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1643556605076_571 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1643556605076_571.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1643556605076_571.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1643556605076_571 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1643556605076_571.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1643550476495_402 closed">
+<div class="hamburger-menu_1643556605076_571 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -79,26 +79,26 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    $('.hamburger-menu_1643550476495_402').removeClass('open');
-    $('.hamburger-menu_1643550476495_402').addClass('closed');
+    $('.hamburger-menu_1643556605076_571').removeClass('open');
+    $('.hamburger-menu_1643556605076_571').addClass('closed');
   }
   function open() {
     isOpen = true;
-    $('.hamburger-menu_1643550476495_402').addClass('open');
-    $('.hamburger-menu_1643550476495_402').removeClass('closed');
+    $('.hamburger-menu_1643556605076_571').addClass('open');
+    $('.hamburger-menu_1643556605076_571').removeClass('closed');
   }
   function toggle() {
     if(isOpen) close();
     else open();
   }
-  var silexElement = $('.hamburger-menu_1643550476495_402').closest('.editable-style');
+  var silexElement = $('.hamburger-menu_1643556605076_571').closest('.editable-style');
   function move(data) {
     var offset = silexElement.offset();
-    $('.hamburger-menu_1643550476495_402 .nav-container').css({
+    $('.hamburger-menu_1643556605076_571 .nav-container').css({
       'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
     });
   }
-  $('.hamburger-menu_1643550476495_402 .hamburger-btn').click(function() { toggle(); });
+  $('.hamburger-menu_1643556605076_571 .hamburger-btn').click(function() { toggle(); });
   $(document).on('silex.scroll silex.resize', function(e) {
     close();
     move(window.silex);
@@ -106,7 +106,7 @@
   close();
 })();
 </script>
-</div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643489723656-24 page-contect- paged-element paged-element-visible" style="" href="null"><div class="silex-element-content normal"><h1>Contect</h1></div></div><div data-silex-type="html-element" class="editable-style silex-id-1526234059780-5 html-element silex-component silex-component-form silex-use-height-not-minheight page-contect- paged-element paged-element-visible" style=""><div class="silex-element-content"><form id="id_1643550476495_404" action="https://formspree.io/your@email.com" method="POST">
+</div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643489723656-24 page-contect- paged-element paged-element-visible" style="" href="null"><div class="silex-element-content normal"><h1>Contect</h1></div></div><div data-silex-type="html-element" class="editable-style silex-id-1526234059780-5 html-element silex-component silex-component-form silex-use-height-not-minheight page-contect- paged-element paged-element-visible" style=""><div class="silex-element-content"><form id="id_1643556605075_586" action="https://formspree.io/your@email.com" method="POST">
   
   <div>
     <label for="field1">Name</label>
@@ -122,6 +122,6 @@
   
   <input type="submit" value="Send">
 </form>
-<style>#id_1643550476495_404 input[type=text], select {width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box;}#id_1643550476495_404 input[type=submit] {width: 100%; background-color: #000000; color: #FFFFFF; padding: 14px 20px; margin: 8px 0; border: 1px solid #000000; border-radius: 3px; cursor: pointer;}#id_1643550476495_404 label {color: #000000;}#id_1643550476495_404 .fill-vertical {flex: 1 1 auto; display: flex; flex-direction: column;}#id_1643550476495_404 .fill-vertical textarea {flex: 1 1 auto; width: 100%; height: 150px; padding: 12px 20px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 3px; background-color: #f8f8f8; font-size: 16px; resize: none;}#id_1643550476495_404 {border-radius: 3px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;}</style>
+<style>#id_1643556605075_586 input[type=text], select {width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box;}#id_1643556605075_586 input[type=submit] {width: 100%; background-color: #000000; color: #FFFFFF; padding: 14px 20px; margin: 8px 0; border: 1px solid #000000; border-radius: 3px; cursor: pointer;}#id_1643556605075_586 label {color: #000000;}#id_1643556605075_586 .fill-vertical {flex: 1 1 auto; display: flex; flex-direction: column;}#id_1643556605075_586 .fill-vertical textarea {flex: 1 1 auto; width: 100%; height: 150px; padding: 12px 20px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 3px; background-color: #f8f8f8; font-size: 16px; resize: none;}#id_1643556605075_586 {border-radius: 3px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;}</style>
 
 </div></div></div></section><div data-silex-type="text-element" class="editable-style text-element text-style-1 silex-id-1526234233846-7 page-contect- paged-element paged-element-visible" style="" href="null"><div class="silex-element-content normal"><h2>We are MagicAgency</h2><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>126-130 Crosby Street, Soho<br>New York City, NY 10012, U.S.<br>© ThemeMountain. <br></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="container-element" class="editable-style container-element silex-id-1643484675514-7 page-home paged-element page-memories-2021 page-pastor-and-ministers page-music-page page-church-service page-history page-contect- hide-on-mobile paged-element-visible" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1643483982306-0 page-page-1" style="" href="null"><div class="silex-element-content normal"><h2><a href="./" class="">Home</a></h2><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643485550950-8" style="" href="null"><div class="silex-element-content normal"><h2><a href="memories-2021.html" class="">Memories</a></h2><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643487866553-13" style="" href="null"><div class="silex-element-content normal"><h2><a href="pastor-and-ministers.html" linktype="LinkTypePage" class="">Pastor And Ministers</a></h2></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643487869842-14" style="" href="null"><div class="silex-element-content normal"><h2><a href="music-page.html" linktype="LinkTypePage" class="">Music Page</a></h2></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643488016231-16" style="" href="null"><div class="silex-element-content normal"><h2><a href="church-service.html" linktype="LinkTypePage" class="">Church Service</a></h2></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643488034517-17" style="" href="null"><div class="silex-element-content normal"><h2><a href="history.html" linktype="LinkTypePage" class="">History</a></h2></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643488097618-18" style="" href="null"><div class="silex-element-content normal"><h2><a href="contect-.html" linktype="LinkTypePage" class="page-link-active">Contect</a></h2></div></div></div></body></html>
