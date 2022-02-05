@@ -1,4 +1,18 @@
 
 
     window.silex = window.silex || {}
-    window.silex.data = {"site":{"width":969},"pages":[{"id":"page-home","displayName":"Home","link":{"linkType":"LinkTypePage","href":"#!page-home"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-memories-2021","displayName":"Memories 2021","link":{"linkType":"LinkTypePage","href":"#!page-memories-2021"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-pastor-and-ministers","displayName":"Pastor And Ministers","link":{"linkType":"LinkTypePage","href":"#!page-pastor-and-ministers"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-music-page","displayName":"Music Page","link":{"linkType":"LinkTypePage","href":"#!page-music-page"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-church-service","displayName":"Church  Service","link":{"linkType":"LinkTypePage","href":"#!page-church-service"},"canDelete":true,"canRename":true,"canMove":true,"canProperties":true,"opened":false},{"id":"page-history","displayName":"History","link":{"linkType":"LinkTypePage","href":"#!page-history"},"canDelete":true,"canRename":true,"canMove":true,"canProperties":true,"opened":false},{"id":"page-contect-","displayName":"Contect ","link":{"linkType":"LinkTypePage","href":"#!page-contect-"},"canDelete":true,"canRename":true,"canMove":true,"canProperties":true,"opened":false}]}
+    window.silex.data = {"site":{"width":960},"pages":[{"id":"page-home","displayName":"Home","link":{"linkType":"LinkTypePage","href":"#!page-home"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-our-mission","displayName":"Our Mission","link":{"linkType":"LinkTypePage","href":"#!page-our-mission"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-news-press","displayName":"News & Press","link":{"linkType":"LinkTypePage","href":"#!page-news-press"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-how-to-help","displayName":"How to Help","link":{"linkType":"LinkTypePage","href":"#!page-how-to-help"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-contact","displayName":"Contact","link":{"linkType":"LinkTypePage","href":"#!page-contact"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false}]}
+/* slider buttons */
+$(function() {
+    try {
+        var slider = $('.slider .unslider').children().get(0);
+        var unslider = $(slider).data('unslider');
+        $('.sub-nav').click(function() {
+            unslider.next()
+            $('.sub-nav-active').removeClass('sub-nav-active');
+            $(this).addClass('sub-nav-active');
+        });
+    }
+    catch(e) {
+    }
+})
