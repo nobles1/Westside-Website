@@ -220,12 +220,12 @@
 
 
 
-<section data-silex-type="container-element" class="container-element editable-style silex-id-1538221038117-34 section-element hide-on-desktop prevent-resizable" style=""><div data-silex-type="container-element" class="editable-style silex-id-1538221038114-33 container-element silex-element-content website-width" style=""><div data-silex-type="text-element" class="editable-style silex-id-1552775712222-12 text-element silex-component prevent-resizable hide-on-desktop nav prevent-auto-z-index" style=""><div class="silex-element-content normal"><style>.hamburger-menu_1644105606623_589 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1644105606623_589 nav {left: -9999px;}.hamburger-menu_1644105606623_589 nav ul {margin-top: 80px;}.hamburger-menu_1644105606623_589 nav {opacity: 0; position: absolute; background-color: #333333; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1644105606623_589.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1644105606623_589 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1644105606623_589.open .nav-container {}.hamburger-menu_1644105606623_589 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1644105606623_589 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+<section data-silex-type="container-element" class="container-element editable-style silex-id-1538221038117-34 section-element hide-on-desktop prevent-resizable" style=""><div data-silex-type="container-element" class="editable-style silex-id-1538221038114-33 container-element silex-element-content website-width" style=""><div data-silex-type="text-element" class="editable-style silex-id-1552775712222-12 text-element silex-component prevent-resizable hide-on-desktop nav prevent-auto-z-index" style=""><div class="silex-element-content normal"><style>.hamburger-menu_1644107929896_744 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1644107929896_744 nav {left: -9999px;}.hamburger-menu_1644107929896_744 nav ul {margin-top: 80px;}.hamburger-menu_1644107929896_744 nav {opacity: 0; position: absolute; background-color: #333333; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1644107929896_744.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1644107929896_744 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1644107929896_744.open .nav-container {}.hamburger-menu_1644107929896_744 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1644107929896_744 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
       opacity 0.1s ease-in,
       transform 0.1s ease-in,
-      background 0.1s ease-in;}.hamburger-menu_1644105606623_589.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1644105606623_589 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1644105606623_589.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1644105606623_589.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1644105606623_589 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1644105606623_589.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+      background 0.1s ease-in;}.hamburger-menu_1644107929896_744.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1644107929896_744 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1644107929896_744.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1644107929896_744.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1644107929896_744 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1644107929896_744.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1644105606623_589 closed">
+<div class="hamburger-menu_1644107929896_744 closed">
     <div class="hamburger-btn fixed">
       <span></span>
       <span></span>
@@ -256,26 +256,26 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    $('.hamburger-menu_1644105606623_589').removeClass('open');
-    $('.hamburger-menu_1644105606623_589').addClass('closed');
+    $('.hamburger-menu_1644107929896_744').removeClass('open');
+    $('.hamburger-menu_1644107929896_744').addClass('closed');
   }
   function open() {
     isOpen = true;
-    $('.hamburger-menu_1644105606623_589').addClass('open');
-    $('.hamburger-menu_1644105606623_589').removeClass('closed');
+    $('.hamburger-menu_1644107929896_744').addClass('open');
+    $('.hamburger-menu_1644107929896_744').removeClass('closed');
   }
   function toggle() {
     if(isOpen) close();
     else open();
   }
-  var silexElement = $('.hamburger-menu_1644105606623_589').closest('.editable-style');
+  var silexElement = $('.hamburger-menu_1644107929896_744').closest('.editable-style');
   function move(data) {
     var offset = silexElement.offset();
-    $('.hamburger-menu_1644105606623_589 .nav-container').css({
+    $('.hamburger-menu_1644107929896_744 .nav-container').css({
       'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
     });
   }
-  $('.hamburger-menu_1644105606623_589 .hamburger-btn').click(function() { toggle(); });
+  $('.hamburger-menu_1644107929896_744 .hamburger-btn').click(function() { toggle(); });
   $(document).on('silex.scroll silex.resize', function(e) {
     close();
     move(window.silex);
@@ -287,7 +287,7 @@
         
     <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1490694152449-10 container-element" style="">
             
-        </div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643158104012-16 page-memories-2021 paged-element nav paged-element-visible" style="" href="../../../../dropbox/get/Westside%20Church/null"><div class="silex-element-content normal"><h2>
+        </div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643158104012-16 page-memories-2021 paged-element nav paged-element-visible" style="" href="../Westside%20Church/null"><div class="silex-element-content normal"><h2>
 
 <p>Memory Of Our </p><p>&nbsp;Pastor Leon T.Oglesby </p><p>2nd Sunday April 9, 2021</p><p>&nbsp;To </p><p>Saturday Oct 16, 2021</p>
 
@@ -309,13 +309,13 @@
 
 
 
-        </div><div data-silex-type="container-element" class="editable-style container-element silex-id-1643155211457-7" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1643136910133-33 nav-mark nav" title="" style="" href="../../../../dropbox/get/Westside%20Church/null"><div class="silex-element-content normal"><p><a href="pastor-and-ministers.html" class="">Pastor And Ministers</a></p>
-                </div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643156856187-12 nav-mark nav" title="" style="" href="../../../../dropbox/get/Westside%20Church/null"><div class="silex-element-content normal"><p><a href="history.html" class="">history</a></p>
-                </div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643136930073-35 nav-mark nav" title="" style="" href="../../../../dropbox/get/Westside%20Church/null"><div class="silex-element-content normal"><p><a href="music-page.html" class="">Music Page</a></p>
-                </div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643136756926-29 nav-mark nav" title="" style="" href="../../../../dropbox/get/Westside%20Church/null"><div class="silex-element-content normal"><p><a href="./" class="">Home</a></p>
-                </div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643156429700-11" style="" href="../../../../dropbox/get/Westside%20Church/null"><div class="silex-element-content normal"><p><a href="church-service.html" class="">Church Service</a></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643136944008-37 nav-mark nav" title="" style=""><div class="silex-element-content normal"><p><a href="contact.html" class="">Contact</a></p>
-                </div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643136776138-31 nav-mark nav" title="" style="" href="../../../../dropbox/get/Westside%20Church/null"><div class="silex-element-content normal">
-                    <p><a href="memories-2021.html" class="page-link-active">Memories</a></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div></div></section><div data-silex-type="image-element" class="editable-style image-element silex-id-1643219141730-1 page-memories-2021 paged-element paged-element-visible" style=""><img src="assets/Front%20Page%20Pastor%20Leon%20T_%20Oglesby.png"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643219084416-0 page-memories-2021 paged-element paged-element-visible" style="" href="../../../../dropbox/get/Westside%20Church/null"><div class="silex-element-content normal"><p>
+        </div><div data-silex-type="container-element" class="editable-style container-element silex-id-1643155211457-7" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1643136910133-33 nav-mark nav" title="" style="" href="../Westside%20Church/null"><div class="silex-element-content normal"><p><a href="pastor-and-ministers.html" class="">Pastor And Ministers</a></p>
+                </div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643156856187-12 nav-mark nav" title="" style="" href="../Westside%20Church/null"><div class="silex-element-content normal"><p><a href="history.html" class="">history</a></p>
+                </div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643136930073-35 nav-mark nav" title="" style="" href="../Westside%20Church/null"><div class="silex-element-content normal"><p><a href="music-page.html" class="">Music Page</a></p>
+                </div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643136756926-29 nav-mark nav" title="" style="" href="../Westside%20Church/null"><div class="silex-element-content normal"><p><a href="./" class="">Home</a></p>
+                </div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643156429700-11" style="" href="../Westside%20Church/null"><div class="silex-element-content normal"><p><a href="church-service.html" class="">Church Service</a></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643136944008-37 nav-mark nav" title="" style=""><div class="silex-element-content normal"><p><a href="contact.html" class="">Contact</a></p>
+                </div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643136776138-31 nav-mark nav" title="" style="" href="../Westside%20Church/null"><div class="silex-element-content normal">
+                    <p><a href="memories-2021.html" class="page-link-active">Memories</a></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div></div></section><div data-silex-type="image-element" class="editable-style image-element silex-id-1643219141730-1 page-memories-2021 paged-element paged-element-visible" style=""><img src="assets/Front%20Page%20Pastor%20Leon%20T_%20Oglesby.png"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1643219084416-0 page-memories-2021 paged-element paged-element-visible" style="" href="../Westside%20Church/null"><div class="silex-element-content normal"><p>
 
 </p><h2>2006 To 2021<br>God Bless Our Pastor <br>For 15 Years <br>Of Being At <br>Westside Church <br>Thank God For These Years, <br>Born: April 21, 1954<br><br>Thank God For<br>The Many Years With <br>Pastor Leon T. Oglesby <br>We Can Give God The  Praise,<br><br>God Gave Us A<br>True Man Of God<br>That Can Teach And Preach <br><br>Praise Ye The Lord</h2>
 
