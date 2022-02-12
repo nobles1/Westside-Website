@@ -53,12 +53,12 @@
 <section data-silex-type="container-element" class="container-element editable-style silex-id-1478366444112-1 section-element prevent-resizable" style="">
         <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366444112-0 container-element website-width" style=""></div>
     </section><section data-silex-type="container-element" class="container-element editable-style silex-id-1474394621033-3 section-element prevent-resizable" style="">
-        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1474394621032-2 container-element website-width selected" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1644619515054-1 silex-component-hamburger prevent-resizable prevent-auto-z-index hide-on-desktop" style=""><div class="silex-element-content normal"><style>.hamburger-menu_1644627381026_560 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1644627381026_560 nav {left: -9999px;}.hamburger-menu_1644627381026_560 nav ul {margin-top: 80px;}.hamburger-menu_1644627381026_560 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1644627381026_560.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1644627381026_560 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1644627381026_560.open .nav-container {}.hamburger-menu_1644627381026_560 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1644627381026_560 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1474394621032-2 container-element website-width selected" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1644619515054-1 silex-component-hamburger prevent-resizable prevent-auto-z-index hide-on-desktop" style=""><div class="silex-element-content normal"><style>.hamburger-menu_1644628955099_612 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1644628955099_612 nav {left: -9999px;}.hamburger-menu_1644628955099_612 nav ul {margin-top: 80px;}.hamburger-menu_1644628955099_612 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1644628955099_612.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1644628955099_612 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1644628955099_612.open .nav-container {}.hamburger-menu_1644628955099_612 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1644628955099_612 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
       opacity 0.1s ease-in,
       transform 0.1s ease-in,
-      background 0.1s ease-in;}.hamburger-menu_1644627381026_560.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1644627381026_560 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1644627381026_560.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1644627381026_560.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1644627381026_560 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1644627381026_560.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+      background 0.1s ease-in;}.hamburger-menu_1644628955099_612.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1644628955099_612 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1644628955099_612.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1644628955099_612.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1644628955099_612 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1644628955099_612.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1644627381026_560 closed">
+<div class="hamburger-menu_1644628955099_612 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -85,26 +85,26 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    $('.hamburger-menu_1644627381026_560').removeClass('open');
-    $('.hamburger-menu_1644627381026_560').addClass('closed');
+    $('.hamburger-menu_1644628955099_612').removeClass('open');
+    $('.hamburger-menu_1644628955099_612').addClass('closed');
   }
   function open() {
     isOpen = true;
-    $('.hamburger-menu_1644627381026_560').addClass('open');
-    $('.hamburger-menu_1644627381026_560').removeClass('closed');
+    $('.hamburger-menu_1644628955099_612').addClass('open');
+    $('.hamburger-menu_1644628955099_612').removeClass('closed');
   }
   function toggle() {
     if(isOpen) close();
     else open();
   }
-  var silexElement = $('.hamburger-menu_1644627381026_560').closest('.editable-style');
+  var silexElement = $('.hamburger-menu_1644628955099_612').closest('.editable-style');
   function move(data) {
     var offset = silexElement.offset();
-    $('.hamburger-menu_1644627381026_560 .nav-container').css({
+    $('.hamburger-menu_1644628955099_612 .nav-container').css({
       'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
     });
   }
-  $('.hamburger-menu_1644627381026_560 .hamburger-btn').click(function() { toggle(); });
+  $('.hamburger-menu_1644628955099_612 .hamburger-btn').click(function() { toggle(); });
   $(document).on('silex.scroll silex.resize', function(e) {
     close();
     move(window.silex);
@@ -112,7 +112,7 @@
   close();
 })();
 </script>
-</div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1644161702387-0 page-page-1 page-home paged-element paged-element-visible" style="" href="null"><div class="silex-element-content normal"><h1>Westside Missionary&nbsp;</h1><h1>Baptist Church</h1></div></div><div data-silex-type="container-element" class="editable-style container-element silex-id-1644161789341-1 page-page-1" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1644161799159-2 page-page-1" style="" href="null"><div class="silex-element-content normal"><p><a href="./" class="page-link-active"><b>Home</b></a></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1644161974929-3" style="" href="null"><div class="silex-element-content normal"><p><b><a href="memories-2021.html" class="">Memories</a></b></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1644619391901-0" style="" href="null"><div class="silex-element-content normal"><p><b>M</b><u><b></b></u><a href="music-page.html" class=""><b>usic</b></a><a href="music-page.html" class=""><b>-Page</b></a></p></div></div></div></div>
+</div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1644161702387-0 page-page-1 page-home paged-element paged-element-visible" style="" href="null"><div class="silex-element-content normal"><h1>Westside Missionary&nbsp;</h1><h1>Baptist Church</h1></div></div><div data-silex-type="container-element" class="editable-style container-element silex-id-1644161789341-1 page-page-1" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1644629813826-0" style="" href="null"><div class="silex-element-content normal"><p><a href="./" class="page-link-active">Home</a></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1644161974929-3" style="" href="null"><div class="silex-element-content normal"><p><b></b><a href="memories-2021.html" class="">Memories</a></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1644619391901-0" style="" href="null"><div class="silex-element-content normal"><p><a href="music-page.html" class="">Music-Page</a></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div></div></div>
     </section><section data-silex-type="container-element" class="container-element editable-style silex-id-1478366450713-3 section-element prevent-resizable" style="">
         <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366450713-2 container-element website-width" style="">
 
