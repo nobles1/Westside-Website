@@ -55,7 +55,7 @@
 <header class="container-element editable-style silex-id-1478366444112-1 section-element prevent-resizable">
         <div class="editable-style silex-element-content silex-id-1478366444112-0 container-element website-width"><div class="editable-style silex-id-1552765147494-1 text-element silex-component prevent-resizable hide-on-desktop hamburger-menu prevent-auto-z-index"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1660100604865_529 closed">
+<div class="hamburger-menu_1660331205835_117 closed">
     <div class="hamburger-btn fixed">
       <span></span>
       <span></span>
@@ -66,7 +66,7 @@
         <nav class="">
             <ul>
             
-                <li><a href="./">Home</a></li>
+                <li><a href="./" class="">Home</a></li>
             
                 <li><a href="vacations.html" class="page-link-active">Vacations</a></li>
             
@@ -86,13 +86,13 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1660100604865_529').classList.remove('open');
-    document.querySelector('.hamburger-menu_1660100604865_529').classList.add('closed');
+    document.querySelector('.hamburger-menu_1660331205835_117').classList.remove('open');
+    document.querySelector('.hamburger-menu_1660331205835_117').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1660100604865_529').classList.add('open');
-    document.querySelector('.hamburger-menu_1660100604865_529').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1660331205835_117').classList.add('open');
+    document.querySelector('.hamburger-menu_1660331205835_117').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -102,7 +102,7 @@
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1660100604865_529').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1660331205835_117').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -110,10 +110,10 @@
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1660100604865_529 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1660331205835_117 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1660100604865_529 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1660331205835_117 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
@@ -132,7 +132,7 @@
             </div><div class="editable-style text-element footer silex-id-1537729843289-102">
                 <div class="silex-element-content normal"><h3>Your links<br></h3><p><a href="https://www.silex.me/" target="_blank" title="Silex website builder">Powered by Silex</a><a href="https://www.free-css.com/assets/files/free-css-templates/preview/page231/travel/" target="_blank"><br>Inspired by this template</a><br><a href="https://unsplash.com/search/photos/travel" target="_blank" title="Travel photos">Photos from unslplash</a><br></p></div>
             </div><div class="editable-style silex-id-1537730084852-104 html-element silex-component silex-component-share"><div class="silex-element-content">
-<ul class="share-buttons" id="id_1660100604444_585">
+<ul class="share-buttons" id="id_1660331205517_155">
   
   <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.silex.me&amp;t=Silex%2520website%2520builder" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="assets/Facebook.png"></a></li>
   
@@ -142,14 +142,14 @@
   
   
   
-  <li><a href="http://pinterest.com/pin/create/button/?url=https://www.silex.me&amp;description=Here%2520is%2520a%2520silex%2520template" target="_blank" title="Pin it"><img alt="Pin it" src="assets/Pinterest.png" style="display: none !important;"></a></li>
+  <li><a href="http://pinterest.com/pin/create/button/?url=https://www.silex.me&amp;description=Here%2520is%2520a%2520silex%2520template" target="_blank" title="Pin it"><img alt="Pin it" src="assets/Pinterest.png"></a></li>
   
   
   
-  <li><a href="http://www.reddit.com/submit?url=https://www.silex.me&amp;title=Silex%2520website%2520builder" target="_blank" title="Submit to Reddit"><img alt="Submit to Reddit" src="assets/Reddit.png" style="display: none !important;"></a></li>
+  <li><a href="http://www.reddit.com/submit?url=https://www.silex.me&amp;title=Silex%2520website%2520builder" target="_blank" title="Submit to Reddit"><img alt="Submit to Reddit" src="assets/Reddit.png"></a></li>
   
   
-  <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.silex.me&amp;title=Silex%2520website%2520builder&amp;summary=Here%2520is%2520a%2520silex%2520template&amp;source=https://www.silex.me" target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn" src="assets/LinkedIn.png" style="display: none !important;"></a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.silex.me&amp;title=Silex%2520website%2520builder&amp;summary=Here%2520is%2520a%2520silex%2520template&amp;source=https://www.silex.me" target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn" src="assets/LinkedIn.png"></a></li>
   
   
   
